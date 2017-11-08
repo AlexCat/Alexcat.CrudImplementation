@@ -81,7 +81,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="AppDbContext.cs" />
-    <Compile Include="CreateViewModel.cs" />
+    <Compile Include="CreatePersonViewModel.cs" />
     <Compile Include="Logger.cs" />
     <Compile Include="Mapper.cs" />
     <Compile Include="PagedListResolver.cs" />
