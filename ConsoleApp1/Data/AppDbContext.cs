@@ -1,7 +1,8 @@
 ﻿using System.Data.Entity;
 using Calabonga.EntityFramework;
+using CrudOperationsExample.Models;
 
-namespace ConsoleApp1
+namespace CrudOperationsExample.Data
 {
     public class AppDbContext : DbContext, IEntityFrameworkContext
     {

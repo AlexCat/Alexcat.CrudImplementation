@@ -1,7 +1,7 @@
 ﻿using System;
 using Calabonga.EntityFramework;
 
-namespace ConsoleApp1
+namespace CrudOperationsExample.Infrastructure.Logger
 {
     public class Logger : IEntityFrameworkLogService
     {

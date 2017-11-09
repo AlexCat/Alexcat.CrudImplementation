@@ -1,8 +1,11 @@
 ﻿using Calabonga.EntityFramework;
 using Calabonga.PagedListLite;
+using CrudOperationsExample.Infrastructure.Mapper.Resolvers;
+using CrudOperationsExample.Models;
+using CrudOperationsExample.ViewModels;
 using ExpressMapper;
 
-namespace ConsoleApp1
+namespace CrudOperationsExample.Infrastructure.Mapper
 {
     public class Mapper : IMapper
     {

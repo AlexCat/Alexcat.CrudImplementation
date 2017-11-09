@@ -1,9 +1,9 @@
 ﻿using System;
 using Calabonga.EntityFramework;
 
-namespace ConsoleApp1
+namespace CrudOperationsExample.ViewModels
 {
-    internal class UpdateViewModel : IEntityId
+    internal class PersonUpdateViewModel : IEntityId
     {
         public string Name { get; set; }
         public Guid Id { get; set; }

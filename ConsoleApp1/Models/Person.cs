@@ -3,7 +3,7 @@ using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 using Calabonga.EntityFramework;
 
-namespace ConsoleApp1
+namespace CrudOperationsExample.Models
 {
     public class Person : IEntityId
     {

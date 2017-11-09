@@ -6,8 +6,8 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{7B20C57F-E572-4E07-978E-E6F03082EF9E}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>ConsoleApp1</RootNamespace>
-    <AssemblyName>ConsoleApp1</AssemblyName>
+    <RootNamespace>CrudOperationsExample</RootNamespace>
+    <AssemblyName>CrudOperationsExample</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -80,17 +80,17 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="AppDbContext.cs" />
-    <Compile Include="CreatePersonViewModel.cs" />
-    <Compile Include="Logger.cs" />
-    <Compile Include="Mapper.cs" />
-    <Compile Include="PagedListResolver.cs" />
-    <Compile Include="PeopleRepostiory.cs" />
-    <Compile Include="Person.cs" />
-    <Compile Include="PersonViewModel.cs" />
+    <Compile Include="Data\AppDbContext.cs" />
+    <Compile Include="ViewModels\PersonCreateViewModel.cs" />
+    <Compile Include="Infrastructure\Logger\Logger.cs" />
+    <Compile Include="Infrastructure\Mapper\Mapper.cs" />
+    <Compile Include="Infrastructure\Mapper\Resolvers\PagedListResolver.cs" />
+    <Compile Include="Repositories\PeopleRepostiory.cs" />
+    <Compile Include="Models\Person.cs" />
+    <Compile Include="ViewModels\PersonViewModel.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="UpdateViewModel.cs" />
+    <Compile Include="ViewModels\PersonUpdateViewModel.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

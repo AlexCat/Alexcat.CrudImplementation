@@ -1,9 +1,8 @@
 ﻿using System;
-using Calabonga.EntityFramework;
 
-namespace ConsoleApp1
+namespace CrudOperationsExample.ViewModels
 {
-    internal class CreatePersonViewModel : IEntityId
+    public class PersonViewModel
     {
         public Guid Id { get; set; }
         public string Name { get; set; }

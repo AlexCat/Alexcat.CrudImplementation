@@ -1,9 +1,11 @@
 ﻿using System.Collections.Generic;
 using Calabonga.PagedListLite;
+using CrudOperationsExample.Models;
+using CrudOperationsExample.ViewModels;
 using ExpressMapper;
 using ExpressMapper.Extensions;
 
-namespace ConsoleApp1
+namespace CrudOperationsExample.Infrastructure.Mapper.Resolvers
 {
     public class PagedListResolver : ICustomTypeMapper<PagedList<Person>, PagedList<PersonViewModel>>
     {
